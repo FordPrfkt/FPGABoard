@@ -463,10 +463,6 @@ F 3 "" H 3550 5450 50  0000 C CNN
 	1    3550 5450
 	1    0    0    -1  
 $EndComp
-Text Label 6450 3650 0    60   ~ 0
-C_IO3
-Text Label 5600 3650 0    60   ~ 0
-C_IO2
 $Comp
 L CONN_02X07 P6
 U 1 1 578A61EC
@@ -608,7 +604,7 @@ Wire Bus Line
 Wire Bus Line
 	5300 3400 6900 3400
 Wire Bus Line
-	5500 3400 5500 3950
+	5500 3400 5500 4050
 Wire Wire Line
 	5600 3750 5950 3750
 Wire Bus Line
@@ -680,7 +676,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 4050 5950 4050
 Wire Bus Line
-	5500 4050 5500 3900
+	5500 3950 5500 3900
 Wire Wire Line
 	6800 4150 6450 4150
 Wire Wire Line
@@ -693,14 +689,6 @@ Text Label 5600 3750 0    60   ~ 0
 GPIO39
 Text Label 6450 3750 0    60   ~ 0
 GPIO310
-Entry Wire Line
-	6800 3650 6900 3550
-Entry Wire Line
-	5500 3550 5600 3650
-Wire Wire Line
-	6450 3650 6800 3650
-Wire Wire Line
-	5950 3650 5600 3650
 Wire Wire Line
 	5950 3550 5950 3250
 Wire Wire Line
@@ -709,4 +697,47 @@ Wire Wire Line
 	6650 3550 6450 3550
 Wire Wire Line
 	6650 3550 6650 3150
+$Comp
+L CONN_02X03 P2
+U 1 1 578EC111
+P 6200 4800
+F 0 "P2" H 6200 5000 50  0000 C CNN
+F 1 "CONN_02X03" H 6200 4600 50  0000 C CNN
+F 2 "w_pin_strip:pin_strip_3x2" H 6200 3600 50  0001 C CNN
+F 3 "" H 6200 3600 50  0000 C CNN
+	1    6200 4800
+	1    0    0    -1  
+$EndComp
+Text HLabel 5500 4550 0    60   BiDi ~ 0
+C_IO[1..6]
+Wire Bus Line
+	5500 4550 6900 4550
+Wire Bus Line
+	6900 4550 6900 5000
+Wire Bus Line
+	5650 4550 5650 5000
+Entry Wire Line
+	5650 4800 5750 4900
+Entry Wire Line
+	5650 4700 5750 4800
+Entry Wire Line
+	6800 4800 6900 4700
+Entry Wire Line
+	6800 4900 6900 4800
+Wire Wire Line
+	6450 4800 6800 4800
+Wire Wire Line
+	6450 4900 6800 4900
+Wire Wire Line
+	5950 4900 5750 4900
+Wire Wire Line
+	5950 4800 5750 4800
+Text Label 5750 4800 0    60   ~ 0
+C_IO1
+Text Label 5750 4900 0    60   ~ 0
+C_IO2
+Text Label 6450 4800 0    60   ~ 0
+C_IO3
+Text Label 6450 4900 0    60   ~ 0
+C_IO4
 $EndSCHEMATC

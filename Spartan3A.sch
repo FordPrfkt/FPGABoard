@@ -1301,4 +1301,8 @@ Wire Wire Line
 	5750 4500 6000 4500
 Text Label 5750 4500 0    60   ~ 0
 GPIO010
+Text Label 5750 4800 0    60   ~ 0
+BTN1
+Text Label 5750 4900 0    60   ~ 0
+BTN2
 $EndSCHEMATC
