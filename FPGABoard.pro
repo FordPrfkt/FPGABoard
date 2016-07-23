@@ -1,4 +1,4 @@
-update=19.07.2016 22:26:42
+update=23.07.2016 21:47:08
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,5 +61,6 @@ LibName31=D:/KiCadLibs/libaries/kicad-library/w_connectors
 LibName32=D:/KiCadLibs/libaries/kicad-library/w_device
 LibName33=C:/Program Files/KiCad/share/kicad/library/switches
 LibName34=D:/KiCadLibs/libaries/kicad-library/xo-14s
+LibName35=D:/Eigene Dateien/Dokumente/Projekte/KiCad/oscillator_xo
 [general]
 version=1

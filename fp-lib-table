@@ -5,4 +5,8 @@
   (lib (name w_smd_inductors)(type KiCad)(uri D:\KiCadLibs\libaries\w_smd_inductors.pretty)(options "")(descr ""))
   (lib (name w_smd_strip)(type KiCad)(uri D:\KiCadLibs\libaries\w_smd_strip.pretty)(options "")(descr ""))
   (lib (name w_switch)(type KiCad)(uri D:\KiCadLibs\libaries\w_switch.pretty)(options "")(descr ""))
+  (lib (name w_misc_comp)(type KiCad)(uri D:\KiCadLibs\libaries\w_misc_comp.pretty)(options "")(descr ""))
+  (lib (name w_crystal)(type KiCad)(uri D:\KiCadLibs\libaries\w_crystal.pretty)(options "")(descr ""))
+  (lib (name w_conn_pc)(type KiCad)(uri D:\KiCadLibs\libaries\w_conn_pc.pretty)(options "")(descr ""))
+  (lib (name Oscillator__Crystal_SMD)(type KiCad)(uri D:\KiCadLibs\Oscillator__Crystal_SMD.pretty)(options "")(descr ""))
 )
