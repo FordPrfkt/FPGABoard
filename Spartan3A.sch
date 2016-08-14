@@ -493,7 +493,7 @@ U 1 1 578323DD
 P 3850 7200
 F 0 "C29" H 3875 7300 50  0000 L CNN
 F 1 "100nF" H 3875 7100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3888 7050 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3888 7050 50  0001 C CNN
 F 3 "" H 3850 7200 50  0000 C CNN
 	1    3850 7200
 	1    0    0    -1  
@@ -539,7 +539,7 @@ Text HLabel 12250 6750 2    60   Input ~ 0
 INIT_B
 Text HLabel 2850 3150 0    60   Output ~ 0
 DONE
-Text HLabel 3000 3200 0    60   BiDi ~ 0
+Text HLabel 2850 3250 0    60   BiDi ~ 0
 PROG_B
 $Comp
 L R R2
