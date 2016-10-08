@@ -9,4 +9,5 @@
   (lib (name w_crystal)(type KiCad)(uri D:\KiCadLibs\libaries\w_crystal.pretty)(options "")(descr ""))
   (lib (name w_conn_pc)(type KiCad)(uri D:\KiCadLibs\libaries\w_conn_pc.pretty)(options "")(descr ""))
   (lib (name Oscillator__Crystal_SMD)(type KiCad)(uri D:\KiCadLibs\Oscillator__Crystal_SMD.pretty)(options "")(descr ""))
+  (lib (name SMD_Switch_LSX1301)(type KiCad)(uri D:\KiCadLibs\SMD_Switch_LSX1301.pretty)(options "")(descr ""))
 )
