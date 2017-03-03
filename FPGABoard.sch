@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:FPGABoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -70,19 +71,6 @@ F14 "PROG_B" B L 6350 5850 60
 F15 "GPIO0[1..12]" B R 8450 5350 60 
 F16 "GPIO3[1..10]" B R 8450 5650 60 
 $EndSheet
-$Sheet
-S 9850 4250 1850 2750
-U 5748D767
-F0 "Connections" 60
-F1 "Connections.sch" 60
-F2 "LED[1..3]" I L 9850 5150 60 
-F3 "BTN[1..2]" O L 9850 5250 60 
-F4 "GPIO0[1..12]" B L 9850 5350 60 
-F5 "GPIO1[1..12]" B L 9850 5450 60 
-F6 "GPIO2[1..12]" B L 9850 5550 60 
-F7 "GPIO3[1..10]" B L 9850 5650 60 
-F8 "C_IO[1..4]" B L 9850 6650 60 
-$EndSheet
 Wire Wire Line
 	3100 4450 2850 4450
 Wire Wire Line
@@ -132,7 +120,6 @@ F8 "CS_FPGA" O R 4900 5650 60
 F9 "PROG_B" B R 4900 5850 60 
 F10 "DONE" I R 4900 5950 60 
 F11 "INIT_B" I R 4900 6050 60 
-F12 "C_IO[1..4]" B R 4900 6550 60 
 $EndSheet
 Wire Bus Line
 	8450 5650 9850 5650
@@ -143,14 +130,16 @@ F0 "Supply" 60
 F1 "Supply.sch" 60
 F2 "V_USB" I L 3150 1900 60 
 $EndSheet
-Wire Bus Line
-	4900 6550 5600 6550
-Wire Bus Line
-	5600 6550 5600 7550
-Wire Bus Line
-	5600 7550 9150 7550
-Wire Bus Line
-	9150 7550 9150 6650
-Wire Bus Line
-	9150 6650 9850 6650
+$Sheet
+S 9850 4250 1850 2750
+U 5748D767
+F0 "Connections" 60
+F1 "Connections.sch" 60
+F2 "LED[1..3]" I L 9850 5150 60 
+F3 "BTN[1..2]" O L 9850 5250 60 
+F4 "GPIO0[1..12]" B L 9850 5350 60 
+F5 "GPIO1[1..12]" B L 9850 5450 60 
+F6 "GPIO2[1..12]" B L 9850 5550 60 
+F7 "GPIO3[1..10]" B L 9850 5650 60 
+$EndSheet
 $EndSCHEMATC
