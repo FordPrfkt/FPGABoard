@@ -1,0 +1,434 @@
+EESchema Schematic File Version 4
+LIBS:HDMIBoard-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HDMIBoard-rescue:HDMI_A J2
+U 1 1 5AFCABA3
+P 9050 3250
+F 0 "J2" H 8800 4300 50  0000 C CNN
+F 1 "HDMI_A" H 9450 4300 50  0000 C CNN
+F 2 "HDMI_A:HDMI_A_SMD" H 9075 3250 50  0001 C CNN
+F 3 "" H 9075 3250 50  0001 C CNN
+	1    9050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:Conn_01x14 J1
+U 1 1 5AFCACA4
+P 2700 2950
+F 0 "J1" H 2700 3650 50  0000 C CNN
+F 1 "Conn_01x14" H 2700 2150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x07_Pitch2.54mm" H 2700 2950 50  0001 C CNN
+F 3 "" H 2700 2950 50  0001 C CNN
+	1    2700 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:GND #PWR01
+U 1 1 5AFCADFD
+P 2950 3950
+F 0 "#PWR01" H 2950 3700 50  0001 C CNN
+F 1 "GND" H 2950 3800 50  0000 C CNN
+F 2 "" H 2950 3950 50  0001 C CNN
+F 3 "" H 2950 3950 50  0001 C CNN
+	1    2950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:GND #PWR02
+U 1 1 5AFCAFFF
+P 8850 4500
+F 0 "#PWR02" H 8850 4250 50  0001 C CNN
+F 1 "GND" H 8850 4350 50  0000 C CNN
+F 2 "" H 8850 4500 50  0001 C CNN
+F 3 "" H 8850 4500 50  0001 C CNN
+	1    8850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:MCP16251 U1
+U 1 1 5AFE06F7
+P 4100 6200
+F 0 "U1" H 3850 5900 60  0000 C CNN
+F 1 "MCP16251" H 4100 6400 60  0000 C CNN
+F 2 "Housings_SSOP:TSOP-6_1.65x3.05mm_Pitch0.95mm" H 4100 6200 60  0001 C CNN
+F 3 "" H 4100 6200 60  0001 C CNN
+	1    4100 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:+3.3V #PWR03
+U 1 1 5AFE078A
+P 2950 2200
+F 0 "#PWR03" H 2950 2050 50  0001 C CNN
+F 1 "+3.3V" H 2950 2340 50  0000 C CNN
+F 2 "" H 2950 2200 50  0001 C CNN
+F 3 "" H 2950 2200 50  0001 C CNN
+	1    2950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:+3.3V #PWR04
+U 1 1 5AFE07EC
+P 3350 5700
+F 0 "#PWR04" H 3350 5550 50  0001 C CNN
+F 1 "+3.3V" H 3350 5840 50  0000 C CNN
+F 2 "" H 3350 5700 50  0001 C CNN
+F 3 "" H 3350 5700 50  0001 C CNN
+	1    3350 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:C_Small C1
+U 1 1 5AFE0817
+P 3350 6000
+F 0 "C1" H 3360 6070 50  0000 L CNN
+F 1 "4µ7" H 3360 5920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3350 6000 50  0001 C CNN
+F 3 "" H 3350 6000 50  0001 C CNN
+	1    3350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:L_Small L1
+U 1 1 5AFE0861
+P 3100 6100
+F 0 "L1" H 3130 6140 50  0000 L CNN
+F 1 "4µ7" H 3130 6060 50  0000 L CNN
+F 2 "Inductors_SMD:L_0805" H 3100 6100 50  0001 C CNN
+F 3 "" H 3100 6100 50  0001 C CNN
+	1    3100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:GND #PWR05
+U 1 1 5AFE0E25
+P 4100 6750
+F 0 "#PWR05" H 4100 6500 50  0001 C CNN
+F 1 "GND" H 4100 6600 50  0000 C CNN
+F 2 "" H 4100 6750 50  0001 C CNN
+F 3 "" H 4100 6750 50  0001 C CNN
+	1    4100 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:GND #PWR06
+U 1 1 5AFE0E43
+P 3350 6400
+F 0 "#PWR06" H 3350 6150 50  0001 C CNN
+F 1 "GND" H 3350 6250 50  0000 C CNN
+F 2 "" H 3350 6400 50  0001 C CNN
+F 3 "" H 3350 6400 50  0001 C CNN
+	1    3350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:+5V #PWR07
+U 1 1 5AFE0F8A
+P 4950 5800
+F 0 "#PWR07" H 4950 5650 50  0001 C CNN
+F 1 "+5V" H 4950 5940 50  0000 C CNN
+F 2 "" H 4950 5800 50  0001 C CNN
+F 3 "" H 4950 5800 50  0001 C CNN
+	1    4950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:C_Small C2
+U 1 1 5AFE0FBA
+P 4950 6000
+F 0 "C2" H 4960 6070 50  0000 L CNN
+F 1 "10µ" H 4960 5920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4950 6000 50  0001 C CNN
+F 3 "" H 4950 6000 50  0001 C CNN
+	1    4950 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:R_Small R1
+U 1 1 5AFE1066
+P 4700 6150
+F 0 "R1" H 4730 6170 50  0000 L CNN
+F 1 "1M69" H 4730 6110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 4700 6150 50  0001 C CNN
+F 3 "" H 4700 6150 50  0001 C CNN
+	1    4700 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:R_Small R2
+U 1 1 5AFE10DB
+P 4700 6450
+F 0 "R2" H 4730 6470 50  0000 L CNN
+F 1 "1M" H 4730 6410 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 4700 6450 50  0001 C CNN
+F 3 "" H 4700 6450 50  0001 C CNN
+	1    4700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:GND #PWR08
+U 1 1 5AFE1119
+P 4700 6600
+F 0 "#PWR08" H 4700 6350 50  0001 C CNN
+F 1 "GND" H 4700 6450 50  0000 C CNN
+F 2 "" H 4700 6600 50  0001 C CNN
+F 3 "" H 4700 6600 50  0001 C CNN
+	1    4700 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:GND #PWR09
+U 1 1 5AFE1361
+P 4950 6650
+F 0 "#PWR09" H 4950 6400 50  0001 C CNN
+F 1 "GND" H 4950 6500 50  0000 C CNN
+F 2 "" H 4950 6650 50  0001 C CNN
+F 3 "" H 4950 6650 50  0001 C CNN
+	1    4950 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:+5V #PWR010
+U 1 1 5AFE149D
+P 9050 2050
+F 0 "#PWR010" H 9050 1900 50  0001 C CNN
+F 1 "+5V" H 9050 2190 50  0000 C CNN
+F 2 "" H 9050 2050 50  0001 C CNN
+F 3 "" H 9050 2050 50  0001 C CNN
+	1    9050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2150 9050 2050
+Wire Wire Line
+	4950 6650 4950 6100
+Connection ~ 4950 5850
+Connection ~ 4700 5850
+Wire Wire Line
+	4950 5800 4950 5850
+Wire Wire Line
+	4600 5850 4700 5850
+Wire Wire Line
+	4700 6050 4700 5850
+Connection ~ 4700 6300
+Wire Wire Line
+	4700 6250 4700 6300
+Wire Wire Line
+	4600 6300 4700 6300
+Wire Wire Line
+	4700 6600 4700 6550
+Wire Wire Line
+	4100 6750 4100 6650
+Wire Wire Line
+	3350 6400 3350 6100
+Connection ~ 3350 5850
+Connection ~ 3550 5850
+Wire Wire Line
+	3550 5850 3550 6150
+Wire Wire Line
+	3350 5700 3350 5850
+Wire Wire Line
+	3100 5850 3350 5850
+Wire Wire Line
+	3100 5850 3100 6000
+Wire Wire Line
+	3100 6300 3100 6200
+Wire Wire Line
+	3600 6300 3100 6300
+Wire Wire Line
+	3550 6150 3600 6150
+Wire Wire Line
+	2950 2350 2950 2200
+Wire Wire Line
+	2900 2350 2950 2350
+Connection ~ 9250 4450
+Wire Wire Line
+	9250 4450 9250 4350
+Connection ~ 9150 4450
+Wire Wire Line
+	9150 4450 9150 4350
+Connection ~ 9050 4450
+Wire Wire Line
+	9050 4450 9050 4350
+Connection ~ 8950 4450
+Wire Wire Line
+	8950 4350 8950 4450
+Connection ~ 8850 4450
+Wire Wire Line
+	8850 4350 8850 4450
+Wire Wire Line
+	8850 4450 8950 4450
+Wire Wire Line
+	9350 4450 9350 4350
+Wire Wire Line
+	2950 2450 2950 3950
+Wire Wire Line
+	2900 2450 2950 2450
+Wire Wire Line
+	2900 2550 8650 2550
+Wire Wire Line
+	2900 2650 3050 2650
+Wire Wire Line
+	3050 2650 3050 2450
+Wire Wire Line
+	3050 2450 8650 2450
+Wire Wire Line
+	2900 2750 8650 2750
+Wire Wire Line
+	2900 2850 3150 2850
+Wire Wire Line
+	3150 2850 3150 2650
+Wire Wire Line
+	3150 2650 8650 2650
+Wire Wire Line
+	2900 2950 8650 2950
+Wire Wire Line
+	2900 3050 3250 3050
+Wire Wire Line
+	3250 3050 3250 2850
+Wire Wire Line
+	3250 2850 8650 2850
+Wire Wire Line
+	2900 3150 8650 3150
+Wire Wire Line
+	2900 3250 3350 3250
+Wire Wire Line
+	3350 3250 3350 3050
+Wire Wire Line
+	3350 3050 8650 3050
+Wire Wire Line
+	2900 3350 8650 3350
+Wire Wire Line
+	2900 3450 3350 3450
+Wire Wire Line
+	3350 3450 3350 3550
+Wire Wire Line
+	3350 3550 6850 3550
+Wire Wire Line
+	2900 3550 3250 3550
+Wire Wire Line
+	3250 3550 3250 3650
+Wire Wire Line
+	3250 3650 7150 3650
+Wire Wire Line
+	2900 3650 3150 3650
+Wire Wire Line
+	3150 3650 3150 3950
+Wire Wire Line
+	3150 3950 8650 3950
+NoConn ~ 8650 3850
+$Comp
+L HDMIBoard-rescue:R_Small R3
+U 1 1 5B4E86B3
+P 6850 2150
+F 0 "R3" H 6880 2170 50  0000 L CNN
+F 1 "2k" H 6880 2110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 6850 2150 50  0001 C CNN
+F 3 "" H 6850 2150 50  0001 C CNN
+	1    6850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L HDMIBoard-rescue:R_Small R4
+U 1 1 5B4E8A75
+P 7150 2150
+F 0 "R4" H 7180 2170 50  0000 L CNN
+F 1 "2k" H 7180 2110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 7150 2150 50  0001 C CNN
+F 3 "" H 7150 2150 50  0001 C CNN
+	1    7150 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2250 6850 3550
+Connection ~ 6850 3550
+Wire Wire Line
+	7150 2250 7150 3650
+Connection ~ 7150 3650
+$Comp
+L HDMIBoard-rescue:+5V #PWR011
+U 1 1 5B4E8B6D
+P 7000 1950
+F 0 "#PWR011" H 7000 1800 50  0001 C CNN
+F 1 "+5V" H 7000 2090 50  0000 C CNN
+F 2 "" H 7000 1950 50  0001 C CNN
+F 3 "" H 7000 1950 50  0001 C CNN
+	1    7000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2050 6850 2000
+Wire Wire Line
+	6850 2000 7000 2000
+Wire Wire Line
+	7000 2000 7000 1950
+Wire Wire Line
+	7150 2000 7150 2050
+Connection ~ 7000 2000
+Text Label 8100 2450 0    60   ~ 0
+D2+
+Text Label 8100 2550 0    60   ~ 0
+D2-
+Text Label 8100 2650 0    60   ~ 0
+D1+
+Text Label 8100 2750 0    60   ~ 0
+D1-
+Text Label 8100 2850 0    60   ~ 0
+D0+
+Text Label 8100 2950 0    60   ~ 0
+D0-
+Text Label 8100 3050 0    60   ~ 0
+CK+
+Text Label 8100 3150 0    60   ~ 0
+CK-
+Text Label 8100 3350 0    60   ~ 0
+CEC
+Text Label 8100 3550 0    60   ~ 0
+SCL
+Text Label 8100 3650 0    60   ~ 0
+SDA
+Text Label 8100 3950 0    60   ~ 0
+HPD
+Wire Wire Line
+	4950 5850 4950 5900
+Wire Wire Line
+	4700 5850 4950 5850
+Wire Wire Line
+	4700 6300 4700 6350
+Wire Wire Line
+	3350 5850 3350 5900
+Wire Wire Line
+	3350 5850 3550 5850
+Wire Wire Line
+	3550 5850 3600 5850
+Wire Wire Line
+	9250 4450 9350 4450
+Wire Wire Line
+	9150 4450 9250 4450
+Wire Wire Line
+	9050 4450 9150 4450
+Wire Wire Line
+	8950 4450 9050 4450
+Wire Wire Line
+	8850 4450 8850 4500
+Wire Wire Line
+	6850 3550 8650 3550
+Wire Wire Line
+	7150 3650 8650 3650
+Wire Wire Line
+	7000 2000 7150 2000
+$EndSCHEMATC

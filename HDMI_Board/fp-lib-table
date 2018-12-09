@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name HDMI_A)(type KiCad)(uri D:/KiCadLibs/HDMI_A.pretty)(options "")(descr ""))
+)
